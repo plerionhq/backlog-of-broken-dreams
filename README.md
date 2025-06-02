@@ -12,10 +12,7 @@ These tools help security teams prioritize issues by using AI to analyze the con
 
 ## Features
 
-- Supports multiple Anthropic Claude models via AWS Bedrock:
-  - Claude 3 Haiku (fastest, cheapest)
-  - Claude 3 Sonnet (balanced)
-  - Claude 3 Opus (most capable)
+- Supports [any AWS Bedrock model](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)
 - Natural language reasoning for prioritization decisions
 - Detailed comparison/scoring rationale for each issue
 - Progress tracking with tqdm
