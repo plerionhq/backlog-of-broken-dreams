@@ -2,6 +2,8 @@
 
 A collection of tools that use AWS Bedrock's models to intelligently prioritize security issues through different approaches: naive scoring, Elo ranking, and bubble sort comparison.
 
+For a detailed explanation of how these tools work and when to use each approach, check out our [blog post](https://www.plerion.com/blog/automatically-prioritize-security-issues-from-different-tools-with-an-llm).
+
 ## Overview
 
 These tools help security teams prioritize issues by using AI to analyze the context and impact of each issue, rather than relying solely on scanner-provided severity ratings. Each tool takes a different approach to prioritization:
@@ -136,4 +138,4 @@ You can customize these prompts by:
 
 Daniel Grzelak (@dagrz on X, daniel.grzelak@plerion.com)
 
-And if you don’t want to mess around with all that, or you just want something now, let our [AI cloud security teammate Pleri](https://www.plerion.com/pleri-ai "https://www.plerion.com/pleri-ai") do the prioritization for you, in Slack, in Jira, or wherever else you might work.
+And if you don't want to mess around with all that, or you just want something now, let our [AI cloud security teammate Pleri](https://www.plerion.com/pleri-ai "https://www.plerion.com/pleri-ai") do the prioritization for you, in Slack, in Jira, or wherever else you might work.
